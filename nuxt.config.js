@@ -1,7 +1,6 @@
 export default {
-  ssr: false,  // Optional: Disable SSR for static site generation
-  target: 'static',  // Set to static for SSG (Static Site Generation)
-  
+  ssr: false,  
+  target: 'static',  
   // Modules used in the project
   modules: [
     '@nuxtjs/axios', 
