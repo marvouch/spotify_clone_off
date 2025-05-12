@@ -1,15 +1,26 @@
 export default {
-  ssr: true, // Ensure SSR is enabled
-  target: 'server',
-  modules: ['@nuxtjs/axios', '@nuxtjs/auth-next', '@nuxt/postcss8', '@nuxtjs/toast'],
-
-  axios: {
-    baseURL: 'https://api.spotify.com/v1', // API Spotify
-  },
-  css: [
-    // Inclure Tailwind CSS
-    '@/assets/css/tailwind.css',
+  ssr: false,  // Optional: Disable SSR for static site generation
+  target: 'static',  // Set to static for SSG (Static Site Generation)
+  
+  // Modules used in the project
+  modules: [
+    '@nuxtjs/axios', 
+    '@nuxtjs/auth-next', 
+    '@nuxt/postcss8', 
+    '@nuxtjs/toast'
   ],
+
+  // Axios configuration
+  axios: {
+    baseURL: 'https://api.spotify.com/v1',  // Base URL for Spotify API
+  },
+
+  // CSS configuration (Tailwind CSS)
+  css: [
+    '@/assets/css/tailwind.css',  // Include Tailwind CSS
+  ],
+
+  // Build Configuration
   build: {
     postcss: {
       plugins: {
@@ -20,18 +31,17 @@ export default {
     },
   },
 
+  // Head configuration for additional meta and link tags
   head: {
-    // ... autres options ...
     link: [
-      // ... autres liens ...
       {
         rel: 'stylesheet',
-        href: 'https://fonts.googleapis.com/icon?family=Material+Icons',
+        href: 'https://fonts.googleapis.com/icon?family=Material+Icons',  // Add Material Icons link
       },
     ],
   },
-  
 
+  // Auth configuration for Spotify OAuth2
   auth: {
     strategies: {
       spotify: {
@@ -57,18 +67,24 @@ export default {
           'user-read-currently-playing',
           'user-read-recently-played',
           'user-top-read',
-          'user-follow-read'
+          'user-follow-read',
         ],
         grantType: 'authorization_code',
         responseType: 'code',
-        redirectUri: 'https://e88c-197-230-122-194.ngrok-free.app/callback',
+        redirectUri: 'https://your-vercel-deployment-url/callback', // Ensure this URL matches your Vercel deployment
       },
     },
   },
 
+  // Toast notifications configuration
   toast: {
     position: 'top-right',
     duration: 3000,
     keepOnHover: true,
+  },
+
+  // Generate pages dynamically if needed
+  generate: {
+    dir: 'dist',  // Vercel will automatically detect this directory
   },
 };

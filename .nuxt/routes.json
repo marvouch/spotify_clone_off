@@ -1,0 +1,65 @@
+[
+  {
+    "name": "callback",
+    "path": "/callback",
+    "component": "/workspaces/spotify_clone_off/pages/callback.vue",
+    "chunkName": "pages/callback",
+    "_name": "_03ef26c7"
+  },
+  {
+    "name": "dashboard",
+    "path": "/dashboard",
+    "component": "/workspaces/spotify_clone_off/pages/dashboard.vue",
+    "chunkName": "pages/dashboard",
+    "_name": "_063bfbfc"
+  },
+  {
+    "name": "library",
+    "path": "/library",
+    "component": "/workspaces/spotify_clone_off/pages/library.vue",
+    "chunkName": "pages/library",
+    "_name": "_1f2ce3ae"
+  },
+  {
+    "name": "login",
+    "path": "/login",
+    "component": "/workspaces/spotify_clone_off/pages/login.vue",
+    "chunkName": "pages/login",
+    "_name": "_30c96f57"
+  },
+  {
+    "name": "rechercher",
+    "path": "/rechercher",
+    "component": "/workspaces/spotify_clone_off/pages/rechercher.vue",
+    "chunkName": "pages/rechercher",
+    "_name": "_d39dd64e"
+  },
+  {
+    "name": "search",
+    "path": "/search",
+    "component": "/workspaces/spotify_clone_off/pages/search.vue",
+    "chunkName": "pages/search",
+    "_name": "_28d6952a"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/workspaces/spotify_clone_off/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_6721cc40"
+  },
+  {
+    "name": "artist-id",
+    "path": "/artist/:id?",
+    "component": "/workspaces/spotify_clone_off/pages/artist/_id.vue",
+    "chunkName": "pages/artist/_id",
+    "_name": "_5f94a874"
+  },
+  {
+    "name": "playlist-id",
+    "path": "/playlist/:id?",
+    "component": "/workspaces/spotify_clone_off/pages/playlist/_id.vue",
+    "chunkName": "pages/playlist/_id",
+    "_name": "_51ab3d7f"
+  }
+]
