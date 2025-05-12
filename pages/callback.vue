@@ -25,9 +25,9 @@ export default {
         new URLSearchParams({
           grant_type: 'authorization_code',
           code: code,
-          redirect_uri: 'https://spotifyclone-d06zkk4ip-marvouchs-projects.vercel.app/callback',
-          client_id: 'cd0a66c293314bce91e0810930117a0f',
-          client_secret: 'e5f05c8775f44f9f8fce13dcd499ea74',
+          redirect_uri: 'https://spotifycloneoff.vercel.app/callback',
+          client_id: 'b1073ff1d9f24709a2ccaeca5dc3ae46',
+          client_secret: '2ad319b3d1ae4cdaa26a5cf996bb1855',
         }),
         {
           headers: {

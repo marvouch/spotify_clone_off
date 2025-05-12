@@ -50,8 +50,8 @@ export default {
           token: 'https://accounts.spotify.com/api/token',
           userInfo: 'https://api.spotify.com/v1/me',
         },
-        clientId: 'cd0a66c293314bce91e0810930117a0f',
-        clientSecret: 'e5f05c8775f44f9f8fce13dcd499ea74',
+        clientId: 'b1073ff1d9f24709a2ccaeca5dc3ae46',
+        clientSecret: '2ad319b3d1ae4cdaa26a5cf996bb1855',
         scope: [
           'user-read-private',
           'user-read-email',
@@ -70,7 +70,7 @@ export default {
         ],
         grantType: 'authorization_code',
         responseType: 'code',
-        redirectUri: 'https://spotifyclone-d06zkk4ip-marvouchs-projects.vercel.app/callback', // Ensure this URL matches your Vercel deployment
+        redirectUri: 'https://spotifycloneoff.vercel.app/callback', // Ensure this URL matches your Vercel deployment
       },
     },
   },

@@ -34,8 +34,8 @@
 export default {
   methods: {
     redirectToSpotify() {
-      const clientId = 'cd0a66c293314bce91e0810930117a0f';
-      const redirectUri = 'https://spotifyclone-d06zkk4ip-marvouchs-projects.vercel.app/callback';
+      const clientId = 'b1073ff1d9f24709a2ccaeca5dc3ae46';
+      const redirectUri = 'https://spotifycloneoff.vercel.app/callback';
       const scopes = [
         'user-read-private',
         'user-read-email',
