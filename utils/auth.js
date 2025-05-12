@@ -13,8 +13,8 @@ export async function refreshAccessToken() {
       body: new URLSearchParams({
         grant_type: 'refresh_token',
         refresh_token: refreshToken,
-        client_id: 'cd0a66c293314bce91e0810930117a0f',
-        client_secret: 'e5f05c8775f44f9f8fce13dcd499ea74',
+        client_id: 'b1073ff1d9f24709a2ccaeca5dc3ae46',
+        client_secret: '2ad319b3d1ae4cdaa26a5cf996bb1855',
       }),
     });
 
