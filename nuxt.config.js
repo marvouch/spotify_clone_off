@@ -70,7 +70,7 @@ export default {
         ],
         grantType: 'authorization_code',
         responseType: 'code',
-        redirectUri: 'https://your-vercel-deployment-url/callback', // Ensure this URL matches your Vercel deployment
+        redirectUri: 'https://spotifyclone-d06zkk4ip-marvouchs-projects.vercel.app/callback', // Ensure this URL matches your Vercel deployment
       },
     },
   },
